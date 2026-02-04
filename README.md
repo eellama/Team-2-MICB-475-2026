@@ -4,38 +4,46 @@
 
 ### Agenda for Feb 3 Meeting 
 
+
 Decide on a research question
-Kevin’s rough proposal:
-Use the MS dataset
-
-Are there differences in the microbiome based on medication types received during the course of MS treatment? 
-Justification: Gut brain axis linked to cognitive functions and mood disorders, microbiome linked to metabolic health, inflammation. Thus, microbiome impacts of MS treatments have implications for comorbitidies of MS, and should be used to inform MS treatment strategies/
-Hypothesis: The types of drugs used to treat MS in this dataset revolve around disruption of the immune system (MS is an autoimmune disease), even in some therapies it focuses on depletion of certain cell types. Therefore, we should expect differences in microbiomes depending on the mechanism of the drug. 
-
-- Medication types: 
-  - Immunomodulators
-      - Interferon
-      - Glatiramer acetate
-      - Dimethyl Fumarate
-  - Immune cell trafficking inhibitors
-      - Natalizumab
-      - Fingolimod
-  - B-cell depleting therapy
-      - OCrevus/Rituxan
-
-- Control:
-    - Considering that the patients have a paired, non-MS partner, we can use this as a control as to a ‘normal’ microbiome; controlling for environmental factors. 
-    - We cannot use this to account for MS disease effects on the microbiome
-    - Compare MS patients to untreated
-    - There are many untreated patients ~179, as opposed to a minimum of 22 patients for a drug, so there are plenty of untreated patients to control for MS specific microbiome effects.
+HIV Dataset
+Healthy vs HIV patient. In HIV infected persons, IL6 is chronically elevated. IL6 is known to play a key role in regulation of the microbiome. Thus, investigating differences in microbiome by IL6 levels can inform issues on comorbidities. 5 aims: 
+QIIME -> process HIV dataset
+Everything on project 2 must be done on our shared container. 
+We MUST process the dataset prior to proposal submission (Feb 22)
+Filter out visits. 
+They asked patients to come in 3 times, but only 2 and 3 did they collect fecal samples. These are technical replicates, we don’t want them in there: some patients are represented twice, others once.
+FILTER FOR ONLY VISIT 2 
+IL6 vs HIV status (pos/neg) comparision
+alpha diversity metrics (run all of them)
+Keep IL6 a continuous variable. 
+IL6 vs some kind of alpha diversity. 
+Hopefully, IL6 levels are positively correlated with diversity. 
+pearsons
+Not longitudinal, just correlation
+1 graph of Alpha diversity vs IL-6 in HIV+, another graph of alpha diversity vs IL-6 in HIV- (can be same graph dif colours)
+Beta diversity
+Based on the outcome of Alpha diversity. Depending on which one has correlation this depends on which one we do. If it flattens out, maybe there’s a threshold where it doesn’t matter
+Bin IL6 levels into High Medium Low
+Once binned… (WEEK 6 modules)
+If faith significant, do a core microbiome indicates taxa analysis. 
+Shows how many microbiomes unique to each other
+Shows taxa which are unique to a given condition
+If shannon significant, do a DESEQ analysis
+Means theres changes in abundance of microbes,
+If None of 4 significant
+Functional analysis using piecrust2
+Optional module. 
+This predicts the functional profile of our groups: what microbial pathways are upregulated and downregulated? 
 
 
 Meeting notes
-We chose X as our final project idea
+Evelyn will send group server credentials tomorrow morning. 
+
 
 
 Pre-meeting notes
-Do we want to use Zotero on our google docs? 
+Do we want to use Zotero on our google docs? Yes please
 I made a document for the group lit review. When we are doing our lit review, please take notes on the team proposal document ‘lit review tab’  and upload a pdf of the document on the lit review folder. 
 Please change the name of the paper on the pdf name
 Please group it in the appropriate sub-category folder
@@ -46,6 +54,8 @@ Team proposal is due FEB 22 Midnight (18 days from today)
 Action Items…
 Begin literature review, using the documentation system described above
 Download dataset from server and process data by X 
+
+
 
 
 
