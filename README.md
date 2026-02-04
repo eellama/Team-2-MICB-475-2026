@@ -2,7 +2,7 @@
 
 
 
-Agenda for Feb 3 Meeting 
+### Agenda for Feb 3 Meeting 
 
 Decide on a research question
 Kevin’s rough proposal:
