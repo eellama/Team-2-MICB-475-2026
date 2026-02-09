@@ -20,36 +20,36 @@
  - Notes:
  	- Everything on project 2 must be done on our shared container. 
 	- We MUST process the dataset prior to proposal submission (Feb 22)
+   	- What variables that may confound the data that we want to control for?
 
 **5 Aims**
-	1. QIIME -> process HIV dataset
-		- Filter out visits. FOR ONLY VISIT 2
-			- They asked patients to come in 3 times, but only collected fecal samples on day 2+3. 
-			- These are technical replicates; some patients are represented twice, others once.
-		- IL6 vs HIV status (pos/neg) comparision
-	2. alpha diversity metrics (run all of them)
-		- Keep IL6 a continuous variable. 
-		- IL6 vs some kind of alpha diversity. 
-		- Hopefully, IL6 levels are positively correlated with diversity. 		    
-		- pearsons
-		- Not longitudinal, just correlation
-		- 1 graph of Alpha diversity vs IL-6 in HIV+, another graph of alpha diversity vs IL-6 in HIV- (can be same graph dif colours)
-	3. Beta diversity
-		- Based on the outcome of Alpha diversity. Pick which one to do depending on which one has correlation. 
-		- If it flattens out, maybe there’s a threshold where it doesn’t matter
-		- Bin IL6 levels: High Medium Low
-	4. Once binned… (WEEK 6 modules)
-		1. If faith significant, do a core microbiome indicates taxa analysis. 
-			- Shows how many microbiomes unique to each other
-			- Shows taxa which are unique to a given condition
-		2. If shannon significant, do a DESEQ analysis
-			- Means theres changes in abundance of microbes,
-	5. If None of 4. is significant (can still do even if 4 is sig)
-		1. Functional analysis using piecrust2
-			- Optional module. 
-			- This predicts the functional profile of our groups: what microbial pathways are upregulated and downregulated? 
-			    
-**what variables that may confound the data that we want to control for**
+1. QIIME -> process HIV dataset
+	- Filter out visits. FOR ONLY VISIT 2
+		- They asked patients to come in 3 times, but only collected fecal samples on day 2+3. 
+		- These are technical replicates; some patients are represented twice, others once.
+	- IL6 vs HIV status (pos/neg) comparision
+2. alpha diversity metrics (run all of them)
+	- Keep IL6 a continuous variable. 
+	- IL6 vs some kind of alpha diversity. 
+	- Hopefully, IL6 levels are positively correlated with diversity. 		    
+	- pearsons
+	- Not longitudinal, just correlation
+	- 1 graph of Alpha diversity vs IL-6 in HIV+, another graph of alpha diversity vs IL-6 in HIV- (can be same graph dif colours)
+3. Beta diversity
+	- Based on the outcome of Alpha diversity. Pick which one to do depending on which one has correlation. 
+	- If it flattens out, maybe there’s a threshold where it doesn’t matter
+	- Bin IL6 levels: High Medium Low
+4. Once binned… (WEEK 6 modules)
+	- If faith significant, do a core microbiome indicates taxa analysis. 
+		- Shows how many microbiomes unique to each other
+		- Shows taxa which are unique to a given condition
+	- If shannon significant, do a DESEQ analysis
+		- Means theres changes in abundance of microbes,
+5. If None of 4. is significant (can still do even if 4 is sig)
+	- Functional analysis using piecrust2
+		- Optional module. 
+		- This predicts the functional profile of our groups: what microbial pathways are upregulated and downregulated?
+Experimental conditions:
 - neg control
 - pos w/o treatment
 - pos w/ treatment
