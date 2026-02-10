@@ -50,6 +50,7 @@
 	- Functional analysis using piecrust2
 		- Optional module. 
 		- This predicts the functional profile of our groups: what microbial pathways are upregulated and downregulated?
+
 Experimental conditions:
 - neg control
 - pos w/o treatment
