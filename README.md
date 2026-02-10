@@ -1,4 +1,4 @@
-### Agenda for Feb 10 Meeting
+# Agenda for Feb 10 Meeting
 **Follow up: Data processing subteam**
 - How is that going
 - ........ the train left the station 
@@ -6,12 +6,17 @@
 **Follow up: Lit review/writing team**
 - how is that going
 
-**Action Items**
-- 
+### Action Items
+- clarify what statistical tests to conduct for each type of analysis
+- clarify how to best represent results of each analysis
+- what needs to be cited (how cite programs used)
+- decide exactly what to filter for
+- clarify how to consider effects of treatment
+- what beta diversity functions to use
+- do we need a project timeline in the proposal?
+- *internal* (is there a better way to format this readme i.e. separate pre- and post-meeting notes)
 
-
-
-### Agenda for Feb 3 Meeting 
+# Agenda/Notes for Feb 3 Meeting 
 **Decide on a research question:**
 - HIV Dataset
 	- Healthy vs HIV patient.
