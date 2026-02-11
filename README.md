@@ -15,6 +15,7 @@
 - what beta diversity functions to use
 - do we need a project timeline in the proposal?
 - *internal* (is there a better way to format this readme i.e. separate pre- and post-meeting notes)
+- Lit review people: look at if there has been past literature discussing HIV, IL-6, and impacts on microbiome
 
 # Agenda/Notes for Feb 3 Meeting 
 **Decide on a research question:**
