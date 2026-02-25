@@ -11,7 +11,7 @@
 -
 
 ### Action Items
--
+- Do AGENDA AT LEAST 12-24 HOURS BEFORE THE MEETING!!!
 -
 -
 
