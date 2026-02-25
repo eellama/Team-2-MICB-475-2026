@@ -3,7 +3,7 @@
 ### Notes
 - Rarified phyloseq should ONLY be for diversity metrics.
 - all others use unrarified.
-- 
+- New idea: bin IL-6 High and Low amongst Healthy and HIV+ persons (4 unique categories). Then, in beta diversity, see which is more correlated with the other? If its IL-6, then look at that. If it's HIV, then look at that. 
 
 ### Clarify data processing roles, next step
 - Kevin
