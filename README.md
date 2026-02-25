@@ -7,7 +7,7 @@
 - Elena
 -  Sarah (Absent due to illness)
 
-### Internal deadlines**
+### Internal deadlines
 -
 
 ### Action Items
