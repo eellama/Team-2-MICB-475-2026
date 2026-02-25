@@ -8,7 +8,7 @@
 ### Clarify data processing roles, next step
 - Kevin
 - Owen
-- Florence: Diversity metrics 
+- Florence
 - Elena
 -  Sarah (Absent due to illness)
 
@@ -17,8 +17,20 @@
 
 ### Action Items
 - Do AGENDA AT LEAST 12-24 HOURS BEFORE THE MEETING!!!
--
--
+- Workflow from today
+  	1 Phyloseq object creation by Elena due by Thursday 26th -> distribute to group google drive
+  	2 Beta Diversity by Florence by March 2
+  	3 Alpha Diversity by Owen by March 2
+  - MEETING MARCH 3 - 
+	4 Core Microbiome by Kevin after Diversity metrics are out 
+  	5 Indicator Species by Sarah after Diversity metrics are out
+	6 Differential gene abundance by X
+  	7 Functional analysis by Owen 
+-Overall workflow
+	- Week of March 2: Aim 1, Revise proposal, address all TA comments to get points back
+    - Week of March 9: Aim 2
+    - Week of March 16: Aim 3
+    - Week of March 23-30: presentation and drafting 
 
 
 # Agenda for Feb 10 Meeting
