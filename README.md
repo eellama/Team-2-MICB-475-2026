@@ -1,4 +1,4 @@
-# Agendy for Feb 24 Meeting
+# Agenda for Feb 24 Meeting
 
 **Clarify data processing roles, next step**
 - Kevin
