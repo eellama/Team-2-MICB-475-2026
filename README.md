@@ -14,7 +14,8 @@
 -  Sarah (Absent due to illness)
 
 ### Internal deadlines
--
+- **26th Feb**, Thursday: Phyloseq object created by Elena
+- **2nd Feb**, Monday: Beta diversity analysis by Florence, Alpha diversity analysis by Owen
 
 ### Action Items
 - Do AGENDA AT LEAST 12-24 HOURS BEFORE THE MEETING!!!
