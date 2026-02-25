@@ -1,9 +1,14 @@
 # Agenda for Feb 24 Meeting
 
-**Clarify data processing roles, next step**
+### Notes
+- Rarified phyloseq should ONLY be for diversity metrics.
+- all others use unrarified.
+- 
+
+### Clarify data processing roles, next step
 - Kevin
 - Owen
-- Florence
+- Florence: Diversity metrics 
 - Elena
 -  Sarah (Absent due to illness)
 
