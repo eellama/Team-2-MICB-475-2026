@@ -3,7 +3,8 @@
 ### Notes
 - Rarified phyloseq should ONLY be for diversity metrics.
 - all others use unrarified.
-- New idea: bin IL-6 High and Low amongst Healthy and HIV+ persons (4 unique categories). Then, in beta diversity, see which is more correlated with the other? If its IL-6, then look at that. If it's HIV, then look at that. 
+- New idea: bin IL-6 High and Low amongst Healthy and HIV+ persons (4 unique categories). Then, in beta diversity, see which is more correlated with the other? If its IL-6, then look at that. If it's HIV, then look at that.
+- If the TA feedback doesnt dock marks for the proposal don't change anything. Don't make unnecessary edits, edit according to TA feedback. 
 
 ### Clarify data processing roles, next step
 - Kevin
@@ -18,15 +19,16 @@
 ### Action Items
 - Do AGENDA AT LEAST 12-24 HOURS BEFORE THE MEETING!!!
 - Workflow from today
-  	1. Phyloseq object creation by Elena due by Thursday 26th -> distribute to group google drive
-  	2. Beta Diversity by Florence by March 2
-  	3. Alpha Diversity by Owen by March 2
+  		1. Phyloseq object creation by Elena due by Thursday 26th -> distribute to group google drive
+  	  	2. Beta Diversity by Florence by March 2
+  		3. Alpha Diversity by Owen by March 2
   
   - MEETING MARCH 3 - 
 	1. Core Microbiome by Kevin after Diversity metrics are out 
  	2. Indicator Species by Sarah after Diversity metrics are out
 	3. Differential gene abundance by X
-    4. Functional analysis by Owen 
+    4. Functional analysis by Owen
+    
 -Overall workflow
 	- Week of March 2: Aim 1, Revise proposal, address all TA comments to get points back
     - Week of March 9: Aim 2
