@@ -19,10 +19,10 @@
 ### Action Items
 - Do AGENDA AT LEAST 12-24 HOURS BEFORE THE MEETING!!!
 - Workflow from today
-  		1. Phyloseq object creation by Elena due by Thursday 26th -> distribute to group google drive
-  	  	2. Beta Diversity by Florence by March 2
-  		3. Alpha Diversity by Owen by March 2
-  - MEETING MARCH 3 - 
+	1. Phyloseq object creation by Elena due by Thursday 26th -> distribute to group google drive
+	2. Beta Diversity by Florence by March 2
+	3. Alpha Diversity by Owen by March 2
+- MEETING MARCH 3 - 
 	4. Core Microbiome by Kevin after Diversity metrics are out 
  	5. Indicator Species by Sarah after Diversity metrics are out
 	6. Differential gene abundance by X
