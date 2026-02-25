@@ -1,3 +1,21 @@
+# Agendy for Feb 24 Meeting
+
+**Clarify data processing roles, next step**
+- Kevin
+- Owen
+- Florence
+- Elena
+-  Sarah (Absent due to illness)
+
+**Internal deadlines**
+-
+
+### Action Items
+-
+-
+-
+
+
 # Agenda for Feb 10 Meeting
 **Follow up: Data processing subteam**
 - How is that going
