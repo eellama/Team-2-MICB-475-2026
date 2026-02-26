@@ -53,4 +53,4 @@ class(TAX)
 
 #### Create phyloseq object ####
 # Merge all into a phyloseq object
-mpt <- phyloseq(OTU, SAMP, TAX, phylotree)
+hiv <- phyloseq(OTU, SAMP, TAX, phylotree)
