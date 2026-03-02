@@ -27,9 +27,9 @@ gg_pcoa <- plot_ordination(hiv_rare, pcoa_wu, color = "HIV_Status", shape="IL6_b
 gg_pcoa
 
 # Save plot
-ggsave("plot_pcoa.png"
-       , gg_pcoa
-       , height=4, width=5)
+ggsave(filename = "beta_diversity_analysis/plot_pcoa.png",
+       gg_pcoa,
+       height=4, width=5)
 
 ### PERMANOVA (Permutational ANOVA) ####
 # Calculate Weighted Unifrac distance matrix
@@ -59,6 +59,6 @@ gg_pcoa_ellipse <- plot_ordination(hiv_rare, ord.unifrac, color = "IL6_bin") +
 gg_pcoa_ellipse
 
 # Save plot
-ggsave("plot_pcoa_ellipse.png",
+ggsave(filename = "beta_diversity_analysis/plot_pcoa_ellipse.png",
        gg_pcoa_ellipse,
        height=4, width=5)
