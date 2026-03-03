@@ -1,8 +1,13 @@
 # Agenda for March 3 Meeting
 
 ### Pre-meeting notes
-	- Followup: How is the Alpha Diversity Analysis going? Beta Diversity? 
-	- Proposal feedback. Noted on group chat that we intend to edit and resubmit to recover marks. Any specific questions for Bessie?
+	- Follow up: How is the Alpha Diversity Analysis going? (Owen)
+	- Follow up: How is the Beta Diversity Analysis going? (Florence)
+	- Proposal feedback:
+		- Noted on group chat that we intend to edit and resubmit to recover marks.
+		- Any specific questions for Bessie?
+		- Decide what edits are actually necessary vs unnecessary. 
+			- Are we going to meet up sometime to discuss? Or individually focus on the sections we originally worked on?
 	
 ### Meeting notes
 	- 
