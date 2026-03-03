@@ -3,7 +3,6 @@
 ### Pre-meeting notes
 	- Follow up: How is the Alpha Diversity Analysis going? (Owen)
 	- Follow up: How is the Beta Diversity Analysis going? (Florence)
-	- Confirm that rarefied phyloseq was used only for diversity metrics
 	- Proposal feedback:
 		- Noted on group chat that we intend to edit and resubmit to recover marks.
 		- Identify any specific questions for Bessie
