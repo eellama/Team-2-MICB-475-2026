@@ -6,6 +6,8 @@
 	- Proposal feedback:
 		- Noted on group chat that we intend to edit and resubmit to recover marks.
 		- Identify any specific questions for Bessie.
+			- In last week's meeting, we discussed binning IL-6 levels of healthy controls as well, but this was not flagged in the proposal. Should we do our analyses based on 3 experimental 			groups (not binning IL-6 of healthy controls) or 4 (binning IL-6 of healthy controls too)?
+				- Beta analysis done with 4 experimental groups
 		- Decide what edits are actually necessary vs unnecessary. 
 			- Are we going to meet up sometime to discuss? Or should we individually focus on the sections we originally worked on?
 	
