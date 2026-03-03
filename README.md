@@ -1,3 +1,17 @@
+# Agenda for March 3 Meeting
+
+### Pre-meeting notes
+	- Followup: How is the Alpha Diversity Analysis going?
+	- Phyloseq object went off without a hitch?
+	- Proposal feedback. Noted on group chat that we intend to edit and resubmit to recover marks. Any specific questions for Bessie?
+	
+### Meeting notes
+	- 
+
+### Action items
+	- See Feb 24 Meeting for timeline. Kevin: Core microbiome analysis by X. Sarah: Indicator Species by X. 
+
+
 # Agenda for Feb 24 Meeting
 
 ### Notes
