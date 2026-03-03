@@ -1,8 +1,7 @@
 # Agenda for March 3 Meeting
 
 ### Pre-meeting notes
-	- Followup: How is the Alpha Diversity Analysis going?
-	- Phyloseq object went off without a hitch?
+	- Followup: How is the Alpha Diversity Analysis going? Beta Diversity? 
 	- Proposal feedback. Noted on group chat that we intend to edit and resubmit to recover marks. Any specific questions for Bessie?
 	
 ### Meeting notes
