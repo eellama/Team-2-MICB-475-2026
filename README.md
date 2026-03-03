@@ -3,17 +3,29 @@
 ### Pre-meeting notes
 	- Follow up: How is the Alpha Diversity Analysis going? (Owen)
 	- Follow up: How is the Beta Diversity Analysis going? (Florence)
+	- Confirm that rarefied phyloseq was used only for diversity metrics
 	- Proposal feedback:
 		- Noted on group chat that we intend to edit and resubmit to recover marks.
-		- Any specific questions for Bessie?
+		- Identify any specific questions for Bessie
 		- Decide what edits are actually necessary vs unnecessary. 
 			- Are we going to meet up sometime to discuss? Or individually focus on the sections we originally worked on?
 	
 ### Meeting notes
-	- 
+	- Alpha diversity update:
+		- Results from Faith's PD and Shannon diversity
+			- Any significant results?
+			- If Faith's PD significant -> Core microbiome analysis & indicator species analysis
+			- If Shannon significant -> DESeq differencial abundance analysis
+
+	- Beta diversity update:
+		- PCoA/clustering patterns
 
 ### Action items
-	- See Feb 24 Meeting for timeline. Kevin: Core microbiome analysis by X. Sarah: Indicator Species by X. 
+	- See Feb 24 Meeting for overall timeline.
+		- Kevin: Core microbiome analysis by X. 
+		- Sarah: Indicator Species by X. 
+	- Group: Review TA feedback and prepare proposal revisions
+		- Assign sections for revision
 
 
 # Agenda for Feb 24 Meeting
