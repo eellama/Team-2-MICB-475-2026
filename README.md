@@ -5,14 +5,13 @@
 	- Follow up: How is the Beta Diversity Analysis going? (Florence)
 	- Proposal feedback:
 		- Noted on group chat that we intend to edit and resubmit to recover marks.
-		- Identify any specific questions for Bessie
+		- Identify any specific questions for Bessie.
 		- Decide what edits are actually necessary vs unnecessary. 
-			- Are we going to meet up sometime to discuss? Or individually focus on the sections we originally worked on?
+			- Are we going to meet up sometime to discuss? Or should we individually focus on the sections we originally worked on?
 	
 ### Meeting notes
 	- Alpha diversity update:
 		- Results from Faith's PD and Shannon diversity
-			- Any significant results?
 			- If Faith's PD significant -> Core microbiome analysis & indicator species analysis
 			- If Shannon significant -> DESeq differencial abundance analysis
 
@@ -21,10 +20,10 @@
 
 ### Action items
 	- See Feb 24 Meeting for overall timeline.
-		- Kevin: Core microbiome analysis by X. 
-		- Sarah: Indicator Species by X. 
+		- Kevin: Core microbiome analysis by March X. 
+		- Sarah: Indicator Species by March X. 
 	- Group: Review TA feedback and prepare proposal revisions
-		- Assign sections for revision
+		- Assign sections & set deadline for revision?
 
 
 # Agenda for Feb 24 Meeting
