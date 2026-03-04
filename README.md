@@ -22,11 +22,13 @@
 
 ### Action items
 	- See Feb 24 Meeting for overall timeline.
+		- Data processing: Internal deadline by Sunday
 		- Kevin: Core microbiome analysis by March 10. 
 		- Sarah: Indicator Species by March 10. 
 		- Elena: Deseq by March 10. 
 	- Group: Review TA feedback and prepare proposal revisions
 		- Assign sections & set deadline for revision?
+	- Proposal revision due Sunday internal. 
 
 
 # Agenda for Feb 24 Meeting
