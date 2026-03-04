@@ -20,6 +20,8 @@
 	- Beta diversity update:
 		- PCoA/clustering patterns
 
+	- May be better to focus on Beta diversity. Owen's quick analysis shows no significant difference in alpha diversity.
+
 ### Action items
 	- See Feb 24 Meeting for overall timeline.
 		- Data processing: Internal deadline by Sunday
