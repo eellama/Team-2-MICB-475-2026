@@ -22,8 +22,9 @@
 
 ### Action items
 	- See Feb 24 Meeting for overall timeline.
-		- Kevin: Core microbiome analysis by March X. 
-		- Sarah: Indicator Species by March X. 
+		- Kevin: Core microbiome analysis by March 10. 
+		- Sarah: Indicator Species by March 10. 
+		- Elena: Deseq by March 10. 
 	- Group: Review TA feedback and prepare proposal revisions
 		- Assign sections & set deadline for revision?
 
