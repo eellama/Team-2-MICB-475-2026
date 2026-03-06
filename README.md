@@ -1,36 +1,41 @@
 # Agenda for March 3 Meeting
 
 ### Pre-meeting notes
-	- Follow up: How is the Alpha Diversity Analysis going? (Owen)
-	- Follow up: How is the Beta Diversity Analysis going? (Florence)
-	- Proposal feedback:
-		- Noted on group chat that we intend to edit and resubmit to recover marks.
-		- Identify any specific questions for Bessie.
-			- In last week's meeting, we discussed binning IL-6 levels of healthy controls as well, but this was not flagged in the proposal. Should we do our analyses based on 3 experimental groups (not binning IL-6 of healthy controls) or 4 (binning IL-6 of healthy controls too)?
-				- Beta analysis done with 4 experimental groups
-		- Decide what edits are actually necessary vs unnecessary. 
-			- Are we going to meet up sometime to discuss? Or should we individually focus on the sections we originally worked on?
+- Follow up: How is the Alpha Diversity Analysis going? (Owen)
+- Follow up: How is the Beta Diversity Analysis going? (Florence)
+- Proposal feedback:
+
+  -> Noted on group chat that we intend to edit and resubmit to recover marks.
+
+- Identify any specific questions for Bessie.
+
+  - In last week's meeting, we discussed binning IL-6 levels of healthy controls as well, but this was not flagged in the proposal. Should we do our analyses based on 3 experimental groups (not binning IL-6 of healthy controls) or 4 (binning IL-6 of healthy controls too)?
+
+    -> Beta analysis done with 4 experimental groups
+- Decide what edits are actually necessary vs unnecessary.
+
+  -> Are we going to meet up sometime to discuss? Or should we individually focus on the sections we originally worked on?
 	
 ### Meeting notes
-	- Alpha diversity update:
-		- Results from Faith's PD and Shannon diversity
-			- If Faith's PD significant -> Core microbiome analysis & indicator species analysis
-			- If Shannon significant -> DESeq differencial abundance analysis
+- Alpha diversity update:
+  - Results from Faith's PD and Shannon diversity
+  - If Faith's PD significant -> Core microbiome analysis & indicator species analysis
+  - If Shannon significant -> DESeq differencial abundance analysis
 
-	- Beta diversity update:
-		- PCoA/clustering patterns
+- Beta diversity update:
+  - PCoA/clustering patterns
 
-	- May be better to focus on Beta diversity. Owen's quick analysis shows no significant difference in alpha diversity.
+- May be better to focus on Beta diversity. Owen's quick analysis shows no significant difference in alpha diversity.
 
 ### Action items
-	- See Feb 24 Meeting for overall timeline.
-		- Data processing: Internal deadline by Sunday
-		- Kevin: Core microbiome analysis by March 10. 
-		- Sarah: Indicator Species by March 10. 
-		- Elena: Deseq by March 10. 
-	- Group: Review TA feedback and prepare proposal revisions
-		- Assign sections & set deadline for revision?
-	- Proposal revision due Sunday internal. Use the google docs SUGGESTING FEATURE to show that we are addressin ghte comments
+- See Feb 24 Meeting for overall timeline.
+  - Data processing: Internal deadline by Sunday
+  - Kevin: Core microbiome analysis by March 10. 
+  - Sarah: Indicator Species by March 10. 
+  - Elena: Deseq by March 10. 
+- Group: Review TA feedback and prepare proposal revisions
+  - Assign sections & set deadline for revision?
+- Proposal revision due Sunday internal. Use the google docs SUGGESTING FEATURE to show that we are addressin ghte comments
 
 
 # Agenda for Feb 24 Meeting
