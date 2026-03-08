@@ -38,7 +38,7 @@ ggsave("allpatientvenn2.jpeg", allpatientvenn2)
 
 
 ### Core Microbiome #2:IL-6 high v IL-6 low in HIV+ persons ONLY
-hiv_only <- subset_samples(hiv_RA, HIV_diagnosis == "Negative") #only keeps HIV+ 
+hiv_only <- subset_samples(hiv_RA, HIV_diagnosis == "Positive") #only keeps HIV+ 
 HPlowil6 <- subset_samples(hiv_only, sample_data(hiv_only)$'IL.6_pg_mL' <= 5) #perform same IL6 binning as previous. 
 HPhighil6 <- subset_samples(hiv_only, sample_data(hiv_only)$'IL.6_pg_mL' >= 5)
 
@@ -58,5 +58,6 @@ HPhigh_ASVs <- core_members(HPhighil6, detection=0, prevalence = 0.5)
 il_6list <- list(IL6high = HPhigh_ASVs, IL6low = HPlow_ASVs)
 HPvenn2 <- ggVennDiagram(x = il_6list) + ggtitle("Core ASVs in IL6 High vs Low groups\n(50% prevalence), HIV+ only")
 ggsave("HPvenn2.jpeg", HPvenn2)
+
 
 
