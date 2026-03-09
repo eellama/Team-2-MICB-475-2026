@@ -1,0 +1,7 @@
+"Genus","Phylum","Family","stat","p.value","IL6_group"
+"g__Weissella","p__Firmicutes","f__Lactobacillaceae",0.468036531689615,0.05,"High IL-6"
+"g__Gemella","p__Firmicutes","f__Gemellaceae",0.442898557687547,0.05,"High IL-6"
+"g__Atopobium","p__Actinobacteriota","f__Atopobiaceae",0.400207566304335,0.015,"High IL-6"
+"g__Helicobacter","p__Campylobacterota","f__Helicobacteraceae",0.346815636673834,0.01,"High IL-6"
+"g__Stomatobaculum","p__Firmicutes","f__Lachnospiraceae",0.288675134594813,0.05,"High IL-6"
+NA,"p__Proteobacteria","f__Morganellaceae",0.28668827018194,0.03,"High IL-6"
