@@ -1,3 +1,18 @@
+# Agenda for March 10 Meeting
+### Pre-meeting notes
+- Proposal revision(?)
+- Follow up: Beta Diversity Analysis results (Florence)
+- Follow up: Core Microbiome Analysis results (Kevin)
+- Follow up: Indicator Species Analysis results (Sarah)
+- Follow up: DESeq Analysis results (Elena)
+- Clarify: Do we still want to include healthy controls for downstream analyses?
+- Clarify: Ritu suggested we do PICRUSt2 analysis on the entire microbiome instead of just ASVs identified in aim 3 of the proposal. Do we want to do this?
+  
+### Meeting notes
+
+### Action items
+
+
 # Agenda for March 3 Meeting
 
 ### Pre-meeting notes
