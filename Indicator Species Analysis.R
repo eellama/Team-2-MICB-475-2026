@@ -5,6 +5,9 @@ library(tidyverse)
 library(phyloseq)
 library(indicspecies)
 
+# Setting seed
+set.seed(1)
+
 # Loading data
 load("hiv_final.RData")
 
