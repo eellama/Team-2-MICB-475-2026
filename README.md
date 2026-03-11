@@ -13,6 +13,7 @@
 - Decide if we want to glom
 - Core mcirobiome and ISA results align
 - Consider increasing threshold for Core Microbiome
+- Glom before creating volcano plot for DESeq
 
 ### Action items
 - crosscheck indicator species to lit review
