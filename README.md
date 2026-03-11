@@ -13,13 +13,13 @@
 - Decide if we want to glom
 - Core mcirobiome and ISA results align
 - Consider increasing threshold for Core Microbiome
-- Glom before creating volcano plot for DESeq
 
 ### Action items
 - crosscheck indicator species to lit review
 - Check if 2-3 samples with higher IL-6 levels identified in HIV_all & HIVpos beta analyses have significantly higher IL-6 than the rest of the sample (Florence)
 - Titrate which increased threshold works for core microbiome
 - Glom to genus level for core microbiome
+- Glom before creating volcano plot for DESeq
 
 # Agenda for March 3 Meeting
 
