@@ -18,12 +18,17 @@
 - crosscheck indicator species to lit review
 - Check if 2-3 samples with higher IL-6 levels identified in HIV_all & HIVpos beta analyses have significantly higher IL-6 than the rest of the sample (Florence)
 - Titrate which increased threshold works for core microbiome
+- Literature review on the specific bacteria hit. Should look at all of them, but especially indicator species
 - Glom to genus level for core microbiome, keep at 0.7, see what we will find. Consider (but don't do) anything to prevalence think about it
 - Glom before creating volcano plot for DESeq
 
 ### Conclusion
 - Core Microbiome: Amongst PLWH, who are IL6 high, they have a different microbiome profile. They have more specific species relative to shared or low IL6.
+- Indicator Species: Agrees with Core Microbiome
+- DESeq: High IL6 for PLWH have many de-abundanced species... Contradicts Indicator Species and Core Microbiome
+- Possible explanations: Perhaps IL6 causes increased death of certain taxa, creating an equilibrium where there's many repressed taxa
 - 
+  
 
 # Agenda for March 3 Meeting
 
