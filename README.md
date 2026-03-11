@@ -12,6 +12,7 @@
 - HIV_all affected IL-6, but effects are minimal. Thus, we will focus on HIV+ only
 - Decide if we want to glom
 - Core mcirobiome and ISA results align
+- Consider increasing threshold for Core Microbiome
 
 ### Action items
 - crosscheck indicator species to lit review
