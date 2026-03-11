@@ -9,9 +9,13 @@
 - Clarify: Ritu suggested we do PICRUSt2 analysis on the entire microbiome instead of just ASVs identified in aim 3 of the proposal. Do we want to do this?
   
 ### Meeting notes
+- HIV_all affected IL-6, but effects are minimal. Thus, we will focus on HIV+ only
+- Decide if we want to glom
+- Core mcirobiome and ISA results align
 
 ### Action items
 - crosscheck indicator species to lit review
+- Check if 2-3 samples with higher IL-6 levels identified in HIV_all & HIVpos beta analyses have significantly higher IL-6 than the rest of the sample (Florence)
 
 # Agenda for March 3 Meeting
 
