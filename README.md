@@ -21,6 +21,10 @@
 - Glom to genus level for core microbiome, keep at 0.7, see what we will find. Consider (but don't do) anything to prevalence think about it
 - Glom before creating volcano plot for DESeq
 
+### Conclusion
+- Core Microbiome: Amongst PLWH, who are IL6 high, they have a different microbiome profile. They have more specific species relative to shared or low IL6.
+- 
+
 # Agenda for March 3 Meeting
 
 ### Pre-meeting notes
