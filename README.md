@@ -18,6 +18,7 @@
 - crosscheck indicator species to lit review
 - Check if 2-3 samples with higher IL-6 levels identified in HIV_all & HIVpos beta analyses have significantly higher IL-6 than the rest of the sample (Florence)
 - Titrate which increased threshold works for core microbiome
+- Glom to genus level for core microbiome
 
 # Agenda for March 3 Meeting
 
