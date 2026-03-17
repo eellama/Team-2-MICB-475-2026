@@ -1,3 +1,16 @@
+# Agenda for March 17 Meeting
+### Pre-meeting notes
+- Follow up: functional analysis?
+- Follow up: 2-3 participants that cluster a bit differently in beta analysis - IL-6 significantly higher? Yes! Stay tuned for numbers :)
+- Follow up: ISA lit review
+- Follow up: DESeq glommed volcano plot
+  
+### Meeting notes
+
+### Action items
+
+### Conclusion
+
 # Agenda for March 10 Meeting
 ### Pre-meeting notes
 - Proposal revision(?)
