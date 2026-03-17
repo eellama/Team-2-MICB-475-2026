@@ -6,6 +6,7 @@
 
   -> I looked into three genera in the last week: https://docs.google.com/document/d/1ylM2Qtx-mR-bZSUlddGdpapLkmqdlxAi-R1kZbtzIg8/edit?usp=sharing
 - Follow up: DESeq glommed volcano plot
+- Follow up: Glommed Core Microbiome
   
 ### Meeting notes
 
