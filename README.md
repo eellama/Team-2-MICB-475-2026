@@ -1,6 +1,6 @@
 # Agenda for March 17 Meeting
 ### Pre-meeting notes
-- Follow up: functional analysis?
+- Follow up: functional analysis - issues
 - Follow up: 2-3 participants that cluster a bit differently in beta analysis - IL-6 significantly higher? Yes! Stay tuned for numbers :)
 - Follow up: ISA lit review
 
