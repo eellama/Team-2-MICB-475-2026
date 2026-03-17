@@ -3,6 +3,8 @@
 - Follow up: functional analysis?
 - Follow up: 2-3 participants that cluster a bit differently in beta analysis - IL-6 significantly higher? Yes! Stay tuned for numbers :)
 - Follow up: ISA lit review
+
+  -> I looked into three genera in the last week: https://docs.google.com/document/d/1ylM2Qtx-mR-bZSUlddGdpapLkmqdlxAi-R1kZbtzIg8/edit?usp=sharing
 - Follow up: DESeq glommed volcano plot
   
 ### Meeting notes
