@@ -11,7 +11,7 @@
 ### Meeting notes
 
 ### Action items
-
+- Invesetigate core microbiome, specific species from each genus glom.
 ### Conclusion
 
 # Agenda for March 10 Meeting
