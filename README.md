@@ -1,3 +1,11 @@
+# Agenda for March 24 Meeting
+### Pre-meeting notes
+- Follow up: functional analysis results
+- Follow up: correction for IL-6 levels of 2 HIV+ samples that clustered differently (they're not the highest), IL-6 distribution plot
+- Follow up: species identified in Core Microbiome analysis
+
+### Action items
+
 # Agenda for March 17 Meeting
 ### Pre-meeting notes
 - Follow up: functional analysis - issues
