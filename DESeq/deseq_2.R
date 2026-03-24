@@ -55,9 +55,18 @@ HIV_plwh_sigASVs <- tax_table(HIV_plwh_deseq) %>% as.data.frame() %>%
 ## Volcano plot: effect size VS significance
 # HIV+ IL6 Binned
 HIV_plwh_genus_vol_plot <- HIV_plwh_ASVs %>%
-  mutate(significant = padj<0.01 & abs(log2FoldChange)>2) %>%
+  mutate(category = case_when(log2FoldChange > 2  ~ "Upregulated",
+                              log2FoldChange < -2 ~ "Downregulated",
+                              padj < 0.05 ~ "Significant",
+                              TRUE ~ "Not Significant")) %>%
   ggplot() +
-  geom_point(aes(x=log2FoldChange, y=-log10(padj), col=significant))
+  geom_vline(xintercept = -2, linetype = "dashed", colour = "grey") +
+  geom_vline(xintercept = 2, linetype = "dashed", colour = "grey") +
+  geom_hline(yintercept = -log10(0.05), linetype = "dashed", colour = "grey") +
+  labs(x = "Fold Change (log[2])", y = "-log[10] (Padj)") +
+  geom_point(aes(x=log2FoldChange, y= -log10(padj), col=category)) +
+  scale_x_continuous(limits = c(-8,5), breaks = seq(-8,4,2)) + 
+  theme_bw(9) # remove background gray grid
 ggsave(filename="HIV_plwh_genus_vol_plot.png",HIV_plwh_genus_vol_plot)
 
 ## Bar graph
