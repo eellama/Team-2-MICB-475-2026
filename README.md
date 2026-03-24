@@ -3,8 +3,8 @@
 - Follow up: functional analysis results
   	-> Fixed error bar currently uses HIV+ group as reference. Can't figure out how to make HIV- group the reference
 - Follow up: correction for IL-6 levels of 2 HIV+ samples that clustered differently (they're not the highest), IL-6 distribution plot
-- Follow up: species identified in Core Microbiome analysis
 - Follow up: ISA lit review (the remaining 3 genera)
+- Follow up: species identified in Core Microbiome analysis
 
 ### Action items
 
