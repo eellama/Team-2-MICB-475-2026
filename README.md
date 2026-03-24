@@ -1,3 +1,28 @@
+# Agenda for March 24 Meeting
+### Pre-meeting notes
+- Follow up: functional analysis results
+  	-> Fixed error bar currently uses HIV+ group as reference. Can't figure out how to make HIV- group the reference
+- Follow up: correction for IL-6 levels of 2 HIV+ samples that clustered differently (they're not the highest), IL-6 distribution plot
+- Follow up: species identified in Core Microbiome analysis
+
+### Action items
+
+# Agenda for March 17 Meeting
+### Pre-meeting notes
+- Follow up: functional analysis - issues
+- Follow up: 2-3 participants that cluster a bit differently in beta analysis - IL-6 significantly higher? Yes! Stay tuned for numbers :)
+- Follow up: ISA lit review
+
+  -> I looked into three genera in the last week: https://docs.google.com/document/d/1ylM2Qtx-mR-bZSUlddGdpapLkmqdlxAi-R1kZbtzIg8/edit?usp=sharing
+- Follow up: DESeq glommed volcano plot
+- Follow up: Glommed Core Microbiome
+  
+### Meeting notes
+
+### Action items
+- Invesetigate core microbiome, specific species from each genus glom.
+### Conclusion
+
 # Agenda for March 10 Meeting
 ### Pre-meeting notes
 - Proposal revision(?)

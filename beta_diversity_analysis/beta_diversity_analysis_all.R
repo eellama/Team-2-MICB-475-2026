@@ -155,3 +155,37 @@ ggsave(filename = "beta_diversity_analysis/plots_all/plot_pcoa_bc_ellipse.png",
 ggsave(filename = "beta_diversity_analysis/plots_all/plot_pcoa_j_ellipse.png",
        gg_pcoa_j_ellipse,
        height=4, width=5)
+
+#### Identifying which participants the 3 diverging dots identified in wu plots belong to ####
+# Extract coordinates
+pcoa_df <- plot_ordination(hiv_rare, ord.wu, justDF = TRUE)
+
+# Subset participants of interest
+pcoa_df_subset <- subset(pcoa_df, Axis.1 > 0.025 & Axis.2 > 0.01) %>%
+  select(Axis.1, Axis.2, HIV_Status, IL.6_pg_mL, IL6_bin)
+view(pcoa_df_subset)
+
+# Convert metadata in phyloseq object hiv_rare to df
+metadata <- data.frame(sample_data(hiv_rare)) %>%
+  rownames_to_column(var = "SampleID")
+
+nrow(metadata)
+
+# See how many samples excluding the 3 identified samples have IL-6 above 17 pg/mL
+metadata_exclude_3 <- metadata %>%
+  filter(!SampleID %in% c("ERR12057704", "ERR12063224", "ERR12063266") &
+           IL.6_pg_mL >= 17) %>%
+  select(SampleID, HIV_Status, IL.6_pg_mL, IL6_bin)
+
+nrow(metadata_exclude_3) # Highest IL-6 lvls
+
+# All samples with IL-6 > 17 pg/mL
+metadata_above17 <- metadata %>%
+  filter(IL.6_pg_mL > 17) %>%
+  select("SampleID", "HIV_Status", "IL.6_pg_mL", "IL6_bin") %>%
+  arrange(desc(IL.6_pg_mL))
+
+# Summary report
+## 87 participants total (both HIV+ and HIV-)
+## 3 participants (2 HIV+, 1 HIV-) identified from PCoA plot. All have IL-6 levels > 17 pg/mL
+## Excluding the above 3, 6 participants have IL-6 levels > 10 pg/mL. All HIV+
