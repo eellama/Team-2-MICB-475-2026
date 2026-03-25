@@ -7,6 +7,7 @@
 - Follow up: species identified in Core Microbiome analysis
 
 ### Action items
+- Clean up the core microbiome figure, have the text on the side. 
 
 # Agenda for March 17 Meeting
 ### Pre-meeting notes
