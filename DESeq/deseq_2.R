@@ -40,25 +40,24 @@ HIV_plwh_res <- right_join(HIV_plwh_res, tax_df, by = "Genus_ID") %>%
 ## Volcano plot: effect size VS significance
 # HIV+ IL6 Binned
 HIV_plwh_genus_vol_plot <- HIV_plwh_res %>%
-  mutate(category = case_when(log2FoldChange > 2  ~ "Upregulated",
-                              log2FoldChange < -2 ~ "Downregulated",
-                              padj < 0.05 ~ "Significant",
+  mutate(category = case_when(padj < 0.05 & log2FoldChange > 1.5  ~ "Upregulated",
+                              padj < 0.05 & log2FoldChange < -1.5 ~ "Downregulated",
                               TRUE ~ "Not Significant")) %>%
   ggplot() +
-  geom_vline(xintercept = -2, linetype = "dashed", colour = "grey") +
-  geom_vline(xintercept = 2, linetype = "dashed", colour = "grey") +
+  geom_vline(xintercept = -1.5, linetype = "dashed", colour = "grey") +
+  geom_vline(xintercept = 1.5, linetype = "dashed", colour = "grey") +
   geom_hline(yintercept = -log10(0.05), linetype = "dashed", colour = "grey") +
+  scale_x_continuous(breaks = c(-3, -1.5, 0, 1.5)) +
   labs(x = "Fold Change (log[2])", y = "-log[10] (Padj)") +
   scale_color_discrete(name="") +
   geom_point(aes(x=log2FoldChange, y= -log10(padj), col=category)) +
-  scale_x_continuous(limits = c(-4,4), breaks = seq(-4,4,2)) + 
   theme_bw(9) # remove background gray grid
 ggsave(filename="HIV_plwh_genus_vol_plot.png",HIV_plwh_genus_vol_plot)
 
 ## Bar graph
 # Filter for significant genera
 HIV_plwh_sig_genus <- HIV_plwh_res %>%
-  filter(padj < 0.01 & abs(log2FoldChange) > 2)
+  filter(padj < 0.05 & abs(log2FoldChange) > 1.5)
 
 # PLWH IL-6
 PLWH_bar <- ggplot(HIV_plwh_sig_genus) +
@@ -96,17 +95,16 @@ HIV_res <- right_join(HIV_res, tax_all_df, by = "Genus_ID") %>%
 ## Volcano plot: effect size VS significance
 # HIV+ IL6 Binned
 HIV_vol_plot <- HIV_res %>%
-  mutate(category = case_when(log2FoldChange > 2  ~ "Upregulated",
-                              log2FoldChange < -2 ~ "Downregulated",
-                              padj < 0.05 ~ "Significant",
+  mutate(category = case_when(padj < 0.05 & log2FoldChange > 1.5  ~ "Upregulated",
+                              padj < 0.05 & log2FoldChange < -1.5 ~ "Downregulated",
                               TRUE ~ "Not Significant")) %>%
   ggplot() +
-  geom_vline(xintercept = -2, linetype = "dashed", colour = "grey") +
-  geom_vline(xintercept = 2, linetype = "dashed", colour = "grey") +
+  geom_vline(xintercept = -1.5, linetype = "dashed", colour = "grey") +
+  geom_vline(xintercept = 1.5, linetype = "dashed", colour = "grey") +
   geom_hline(yintercept = -log10(0.05), linetype = "dashed", colour = "grey") +
+  scale_x_continuous(breaks = c(-3, -1.5, 0, 1.5)) +
   labs(x = "Fold Change (log[2])", y = "-log[10] (Padj)") +
   geom_point(aes(x=log2FoldChange, y= -log10(padj), col=category)) +
-  scale_x_continuous(limits = c(-4,4), breaks = seq(-4,4,2)) + 
   scale_color_discrete(name="") +
   theme_bw(9) # remove background gray grid
 ggsave(filename="all_status_vol_plot.png",HIV_vol_plot)
@@ -114,7 +112,7 @@ ggsave(filename="all_status_vol_plot.png",HIV_vol_plot)
 ## Bar graph
 # Filter for significant genera
 HIV_sig_genus <- HIV_res %>%
-  filter(padj < 0.01 & abs(log2FoldChange) > 2)
+  filter(padj < 0.05 & abs(log2FoldChange) > 1.5)
 
 # PLWH IL-6
 all_bar <- ggplot(HIV_sig_genus) +
@@ -127,7 +125,7 @@ ggsave(filename="all_bar.png", all_bar)
 
 # Put together
 bars <- all_bar + PLWH_bar
-volcanos <- HIV_vol_plot + HIV_plwh_genus_vol_plot
+volcanos <- HIV_vol_plot / HIV_plwh_genus_vol_plot
 
 ggsave(filename="bars.png", bars, width = 3000, height = 2500, units = "px")
 ggsave(filename="volcanos.png", volcanos, width = 3000, height = 2500, units = "px")
