@@ -49,7 +49,11 @@ HIV_plwh_genus_vol_plot <- HIV_plwh_res %>%
   geom_hline(yintercept = -log10(0.05), linetype = "dashed", colour = "grey") +
   scale_x_continuous(breaks = c(-3, -1.5, 0, 1.5)) +
   labs(x = "Fold Change (log[2])", y = "-log[10] (Padj)") +
-  scale_color_discrete(name="") +
+  scale_color_manual(
+    values = c("Upregulated" = "green",
+               "Downregulated" = "#e31a1c",
+               "Not Significant" = "#1f78b4"), 
+    name = "") +
   geom_point(aes(x=log2FoldChange, y= -log10(padj), col=category)) +
   theme_bw(9) # remove background gray grid
 ggsave(filename="HIV_plwh_genus_vol_plot.png",HIV_plwh_genus_vol_plot)
@@ -105,7 +109,11 @@ HIV_vol_plot <- HIV_res %>%
   scale_x_continuous(breaks = c(-3, -1.5, 0, 1.5)) +
   labs(x = "Fold Change (log[2])", y = "-log[10] (Padj)") +
   geom_point(aes(x=log2FoldChange, y= -log10(padj), col=category)) +
-  scale_color_discrete(name="") +
+  scale_color_manual(
+    values = c("Upregulated" = "green",
+               "Downregulated" = "#e31a1c",
+               "Not Significant" = "#1f78b4"), 
+    name = "") +
   theme_bw(9) # remove background gray grid
 ggsave(filename="all_status_vol_plot.png",HIV_vol_plot)
 
