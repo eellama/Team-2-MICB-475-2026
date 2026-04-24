@@ -2,6 +2,11 @@
 library(phyloseq)
 library(tidyverse)
 library(vegan)
+library(showtext)
+
+# Add Calibri font
+font_add(family = "Calibri", regular = "Calibri.ttf")
+showtext_auto()
 
 #### Load phyloseq object (RData) ####
 load("filtered_and_rarefied/hiv_rare.RData")
@@ -94,12 +99,21 @@ adonis2(dm_j ~ IL6_bin, data=samp_dat_wdiv, by="terms")
 
 # Re-plot the original PCoA with ellipses
 gg_pcoa_wu_ellipse <- plot_ordination(hivneg_only_rare, ord.wu, color = "IL6_bin") +
-  labs(color = "IL-6 bin") +
+  labs(title = "HIV- participants", color = "IL-6 bin", x = "PC1(20%)", y = "PC2(13.8%)") +
+  scale_color_manual(values = c(
+    "low" = "#1f78b4",
+    "high" = "#e31a1c")) +
   stat_ellipse(type = "norm") +
   annotate("text",
            x = 0.045,
            y = 0.025,
-           label = "PERMANOVA\nR² = 0.024\np = 0.571")
+           label = "PERMANOVA\nR² = 0.024\np = 0.571",
+           size = 5,
+           lineheight = 0.8,
+           family = "Calibri") +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(text = element_text(family = "Calibri", size = 17))
 gg_pcoa_wu_ellipse
 
 gg_pcoa_uu_ellipse <- plot_ordination(hivneg_only_rare, ord.uu, color = "IL6_bin") +

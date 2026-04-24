@@ -2,6 +2,12 @@
 library(phyloseq)
 library(tidyverse)
 library(vegan)
+# install.packages("showtext")
+library(showtext)
+
+# Add Calibri font
+font_add(family = "Calibri", regular = "Calibri.ttf")
+showtext_auto()
 
 #### Load phyloseq object (RData) ####
 load("filtered_and_rarefied/hiv_rare.RData")
@@ -32,7 +38,11 @@ pcoa_bc <- ordinate(hivpos_only_rare, method="PCoA", distance=bc_dist)
 pcoa_j <- ordinate(hivpos_only_rare, method="PCoA", distance=j_dist)
 
 gg_pcoa_wu <- plot_ordination(hivpos_only_rare, pcoa_wu, color = "IL6_bin") +
-  labs(col="IL-6 levels")
+  scale_color_manual(values = c(
+    "low" = "#1f78b4",
+    "high" = "#e31a1c")) +
+  labs(col="IL-6 levels") +
+  theme_classic()
 gg_pcoa_wu
 
 gg_pcoa_uu <- plot_ordination(hivpos_only_rare, pcoa_uu, color = "IL6_bin") +
@@ -72,7 +82,6 @@ dm_bc <- vegdist(t(otu_table(hivpos_only_rare)), method="bray") # Bray-Curtis
 dm_j <- vegdist(t(otu_table(hivpos_only_rare)), method="jaccard") # Jaccard
 
 # Plot dm as an ordination to a PCoA plot
-## Plot just color="IL6_bin"?
 ord.wu <- ordinate(hivpos_only_rare, method="PCoA", distance="wunifrac")
 plot_ordination(hivpos_only_rare, ord.wu, color="IL6_bin")
 
@@ -86,7 +95,6 @@ ord.j <- ordinate(hivpos_only_rare, method="PCoA", distance="jaccard")
 plot_ordination(hivpos_only_rare, ord.j, color="IL6_bin")
 
 # Run the PERMANOVA on the above matrix
-## Only IL6_bin as response variable?
 samp_dat_wdiv <- data.frame(sample_data(hivpos_only_rare), estimate_richness(hivpos_only_rare))
 set.seed(500) # set.seed function is to ensure reproducibility of PERMANOVA results
 adonis2(dm_wu ~ IL6_bin, data=samp_dat_wdiv, by="terms")
@@ -100,12 +108,21 @@ anova(bd_wu)
 
 # Re-plot the original PCoA with ellipses
 gg_pcoa_wu_ellipse <- plot_ordination(hivpos_only_rare, ord.wu, color = "IL6_bin") +
-  labs(color = "IL-6 bin") +
+  labs(title = "HIV+ participants", color = "IL-6 bin", x = "PC1(20.2%)", y = "PC2(14.6%)") +
+  scale_color_manual(values = c(
+    "low" = "#1f78b4",
+    "high" = "#e31a1c")) +
   stat_ellipse(type = "norm") +
   annotate("text",
            x = 0.045,
-           y = -0.025,
-           label = "PERMANOVA\nR² = 0.041\np = 0.01")
+           y = 0.05,
+           label = "PERMANOVA\nR² = 0.041\np = 0.01",
+           size = 5,
+           lineheight = 0.8,
+           family = "Calibri") +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(text = element_text(family = "Calibri", size = 17))
 gg_pcoa_wu_ellipse
 
 gg_pcoa_uu_ellipse <- plot_ordination(hivpos_only_rare, ord.uu, color = "IL6_bin") +
