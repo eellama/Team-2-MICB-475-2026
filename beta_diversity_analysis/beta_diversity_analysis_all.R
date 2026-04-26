@@ -104,12 +104,20 @@ anova(bd_j)
 
 # Re-plot the original PCoA with ellipses to show a significant difference between IL-6 bin or HIV status
 gg_pcoa_wu_ellipse <- plot_ordination(hiv_rare, ord.wu, color = "IL6_bin") +
-  labs(color = "IL-6 bin") +
+  labs(title = "All participants", color = "IL-6 bin", x = "PC1(18.6%)", y = "PC2(12.6%)") +
+  scale_color_manual(values = c(
+    "low" = "#1f78b4",
+    "high" = "#e31a1c")) +
   stat_ellipse(type = "norm") +
   annotate("text",
-           x = 0.050,
-           y = -0.03,
-           label = "PERMANOVA\nR² = 0.027\np = 0.006")
+           x = 0.045,
+           y = 0.05,
+           label = "PERMANOVA\nR² = 0.027\np = 0.006",
+           size = 5,
+           lineheight = 0.8,
+           family = "Calibri") +
+  theme_classic() +
+  theme(plot.title = element_text(hjust = 0.5))
 gg_pcoa_wu_ellipse
 
 gg_pcoa_uu_ellipse <- plot_ordination(hiv_rare, ord.uu, color = "HIV_Status") +
@@ -188,4 +196,3 @@ metadata_above17 <- metadata %>%
 # Summary report
 ## 87 participants total (both HIV+ and HIV-)
 ## 3 participants (2 HIV+, 1 HIV-) identified from PCoA plot. All have IL-6 levels > 17 pg/mL
-## Excluding the above 3, 6 participants have IL-6 levels > 10 pg/mL. All HIV+
