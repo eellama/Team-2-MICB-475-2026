@@ -55,7 +55,9 @@ HIV_plwh_genus_vol_plot <- HIV_plwh_res %>%
                "Not Significant" = "#1f78b4"), 
     name = "") +
   geom_point(aes(x=log2FoldChange, y= -log10(padj), col=category)) +
-  theme_bw(9) # remove background gray grid
+  theme_bw() + 
+  theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) # remove background gray grid
 ggsave(filename="HIV_plwh_genus_vol_plot.png",HIV_plwh_genus_vol_plot)
 
 ## Bar graph
@@ -69,6 +71,8 @@ PLWH_bar <- ggplot(HIV_plwh_sig_genus) +
   geom_errorbar(aes(x=Genus, ymin=log2FoldChange-lfcSE, ymax=log2FoldChange+lfcSE)) +
   theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0.5)) +
   theme_bw() +
+  theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
   labs(x = "Genus", y = "log[2] Fold Change")
 ggsave(filename="PLWH_bar.png", PLWH_bar)
 
@@ -114,7 +118,9 @@ HIV_vol_plot <- HIV_res %>%
                "Downregulated" = "#e31a1c",
                "Not Significant" = "#1f78b4"), 
     name = "") +
-  theme_bw(9) # remove background gray grid
+  theme_bw(9) +
+  theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) # remove background gray grid
 ggsave(filename="all_status_vol_plot.png",HIV_vol_plot)
 
 ## Bar graph
@@ -128,6 +134,8 @@ all_bar <- ggplot(HIV_sig_genus) +
   geom_errorbar(aes(x=Genus, ymin=log2FoldChange-lfcSE, ymax=log2FoldChange+lfcSE)) +
   theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0.5)) +
   theme_bw() +
+  theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), axis.line = element_line(colour = "black")) +
   labs(x = "Genus", y = "log[2] Fold Change")
 ggsave(filename="all_bar.png", all_bar)
 
@@ -135,5 +143,5 @@ ggsave(filename="all_bar.png", all_bar)
 bars <- all_bar + PLWH_bar
 volcanos <- HIV_vol_plot / HIV_plwh_genus_vol_plot
 
-ggsave(filename="bars.png", bars, width = 3000, height = 2500, units = "px")
-ggsave(filename="volcanos.png", volcanos, width = 3000, height = 2500, units = "px")
+ggsave(filename="bars.png", bars, width = 6000, height = 2500, units = "px")
+ggsave(filename="volcanos.png", volcanos, width = 6000, height = 2500, units = "px")
